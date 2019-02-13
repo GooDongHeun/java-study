@@ -8,5 +8,4 @@ public class StringType {
 		String str2 = new String("123");
 		System.out.println(str.contentEquals(str2));
 	}
-
 }

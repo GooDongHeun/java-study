@@ -1,8 +1,8 @@
 package oop.inherit;
-class Mother{
+class Mother1{
 	int age = 55;
 	String name = "이현채";
-	Mother(){
+	Mother1(){
 		System.out.println("난 엄마 생성자!");
 	}
 	
@@ -12,9 +12,14 @@ class Mother{
 }
 
 public class Extends1 extends Mother{
+	private char[] age;
 	Extends1(){
 		System.out.println("난 확장 생산자!!");
-		attack();
+		attack1();
+	}
+	private void attack1() {
+		// TODO Auto-generated method stub
+		
 	}
 	public static void main(String[] args) {
 		Extends1 e = new Extends1();

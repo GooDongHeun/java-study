@@ -11,6 +11,7 @@ public class GuGuDan {
 		}
 			}
 			
+			
 		System.out.println();
 		}
 }

@@ -33,6 +33,8 @@ public class SearchList2 {
 		System.out.println("numList : " + numList);
 		System.out.println("anList : " + anList);
 		System.out.println("맞춘 갯수 : " + num);
+		//물리계층->데이터링크계층->네트워크계층->전송계층->세션계층->표현계층->응용계층
+		//osi7계층
 	}
 
 	}

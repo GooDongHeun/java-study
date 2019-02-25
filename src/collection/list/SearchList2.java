@@ -20,6 +20,7 @@ public class SearchList2 {
 		ArrayList<Integer> anList = new ArrayList<>();
 		for(int i=0;i<strNums.length;i++) {
 			int num = Integer.parseInt(strNums[i]);
+			
 			//Integer.parseInt = String을 int로 변환함
 			anList.add(num);
 			

@@ -24,6 +24,8 @@ public class BaseBall1 {
 			String[] numStr = scan.nextLine().split(",");
 			int[] nums = new int[3];
 			for(int i=0;i<numStr.length;i++) {
+				nums[i] = Integer.parseInt(numStr[i]);
+			}
 				
 			}
 		

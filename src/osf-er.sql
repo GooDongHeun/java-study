@@ -8,14 +8,14 @@
 
 /* Create Tables */
 
-CREATE TABLE Board
+CREATE TABLE USER_INFO
 (
-	-- 이거슨
-	Num number(10,0) NOT NULL,
-	-- 저거슨
-	Title varchar2(150) NOT NULL,
-	-- ㅇㅇ
-	Content varchar2(100) NOT NULL
+	-- 1
+	UI_NUM varchar2(10) NOT NULL,
+	-- 홍길동
+	UI_NAME varchar2(10) NOT NULL,
+	-- 20
+	UI_AGE varchar2(10) NOT NULL
 );
 
 

@@ -3,7 +3,7 @@ package db.board;
 import java.util.Scanner;
 
 public class View {
-
+//data type, array
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String cmd ="";
@@ -41,12 +41,18 @@ public class View {
 						bs.insertBoard(title,content);
 						
 				}else if("2".equals(cmd)) {
-					System.out.println("삭제할 게시물 : ");
+					System.out.println("삭제할 게시물의 번호 : ");
 					int d = scan.nextInt();
 					bs.deleteBoard(d);
 					
 				}else if("4".equals(cmd)) {
-								bs.updateBoard();
+					System.out.println("수정할 게시물의 번호 : ");
+					int number = scan.nextInt();
+					System.out.print("제목 : ");
+					String title = scan.nextLine();
+					System.out.print("내용 : ");
+					String content = scan.nextLine();
+					bs.updateBoard();
 				}
 				
 				

@@ -24,7 +24,8 @@ public class InsertBoard {
 					ps.setString(1,  title);
 					ps.setString(2,  content);
 					int cnt = ps.executeUpdate();
-					System.out.println();                                                                                                               ntln(cnt);
+					System.out.println();                                                                                                              
+					System.out.println(cnt);
 					if(cnt==1) {
 						System.out.println("정상적으로 1개가 입력되었다!");
 					}else if(cnt==0) {
